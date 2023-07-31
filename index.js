@@ -4,7 +4,6 @@ const mongoose = require("mongoose");
 const morgan = require("morgan");
 
 require("dotenv").config();
-
 const port = process.env.PORT || 5000;
 const DB = process.env.MONGODB_URL;
 
